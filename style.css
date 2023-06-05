@@ -1,0 +1,98 @@
+*{
+    background-color: rgba(234, 234, 15, 0.658);
+    
+    }
+     .container{
+         width: 60%;
+         height: 70vh;
+         margin-left: 20%;
+         display:flex;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+     }
+     .card{
+         width: 98px;
+         height: 15%;
+         background-color: rgba(24, 184, 220, 0.627);
+     }
+     
+     .objetivo{
+         background-color: green;
+     }
+     
+     .j1{
+         background-color: orange;
+     }
+     
+     .j2{
+         background-color: crimson;
+     }
+     body{
+         display:flex;
+         flex-wrap: wrap;
+     }
+     section{
+         width: 20%;
+         display:flex;
+         flex-wrap: wrap;
+     }
+     .jugadores{
+         display:flex;
+     }
+     #nombre{
+         margin-top: 60px;
+         margin-left: 35px;
+         color: rgb(206, 0, 0);
+         font-weight: 300;
+         font-size: 45px;
+         
+     }
+     #j1{
+         width: 130px;
+         height: 80px;
+         margin-left: 35px;
+         margin-right: 35px;
+         margin-bottom: 0px;
+     }
+     #j2{
+         width: 120px;
+         height: 80px;
+         margin-left: 35px;
+         margin-right: 35px;
+         margin-bottom: 30px;
+     }
+     p{
+         color: white;
+         font-size: x-large;
+         font-weight: 100;
+         margin-left: 15px;
+     }
+     #contador1{
+        border: 5px solid;
+         margin-right: 35px;
+         font-size: 40px;
+         margin-bottom: 10px;
+         color: rgb(255, 149, 0);;
+     }
+     #contador2{
+        border: 5px solid;
+        margin-right: 35px;
+        font-size: 40px;
+         margin-bottom: 20px;
+         color: rgb(255, 0, 0);;
+     }
+     button{
+         margin-top: 40px;
+         margin-left: 35px;
+        height: 100px;
+        width: 150px;
+         background-color: rgb(28, 185, 206);
+         color: white;
+     }
+     button:hover{
+         background-color: rgba(14, 9, 173, 0.71);
+         transition-duration: 0.3s;
+     }
+     
+    
